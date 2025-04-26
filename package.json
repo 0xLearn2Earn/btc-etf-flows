@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "moment-timezone": "^0.5.48",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^24.7.2"
+  }
 }
