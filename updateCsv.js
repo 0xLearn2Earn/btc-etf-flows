@@ -5,7 +5,7 @@ const csv = require('csv-parser');
 const { parse } = require('json2csv');
 
 // path of the downloaded .csv from Github
-const csvPath = path.join(__dirname, 'Bitcoin-ETF-Flow-Data', 'data', 'BTC_ETF_INFLOWS_OUTFLOWS.csv');
+const csvPath = path.join(__dirname, 'data', 'BTC_ETF_INFLOWS_OUTFLOWS.csv');
 
 // update the .csv with only new rows
 async function updateCsv(newData) {
