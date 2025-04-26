@@ -34,7 +34,7 @@ async function updateBtcEtfFlows() {
         execSync(`git -C ${REPO_DIR} add .`, { stdio: 'inherit' });
         execSync(`git -C ${REPO_DIR} commit -m "Auto-update BTC ETF data"`, { stdio: 'inherit' });
         execSync(`git -C ${REPO_DIR} push`, { stdio: 'inherit' });
-        console.log('✔️ All done. Data updated and pushed.');
+        console.log('✅ All done. Data updated and pushed successfully!');
 
     } catch (error) {
         console.error('❌ Failed to update BTC ETF flow data:', error);

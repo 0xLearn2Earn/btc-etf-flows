@@ -102,7 +102,7 @@ async function scrapeBtcEtfData() {
                 };
             });
 
-            console.log('Updated dataRows: ', dataRows);
+            // console.log('Updated dataRows: ', dataRows);
             return dataRows;
         } else {
             browser.close();
